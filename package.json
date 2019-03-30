@@ -6,16 +6,16 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "castv2": "~0.1.4",
-    "debug": "^2.2.0"
+    "castv2": "rm-hull/node-castv2",
+    "debug": "^4.1.1"
   },
   "devDependencies": {
     "array-find": "^1.0.0",
     "chromecast-scanner": "^0.5.0",
     "dns-txt": "^2.0.2",
-    "mocha": "^3.2.0",
-    "multicast-dns": "^6.1.0",
-    "util": "^0.10.3"
+    "mocha": "^6.0.2",
+    "multicast-dns": "^7.2.0",
+    "util": "^0.11.1"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha"
